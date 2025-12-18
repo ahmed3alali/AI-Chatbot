@@ -1,8 +1,8 @@
 
 
-# 🤖 AI Chatbox (LangChain + OpenAI)
+# 🤖 AI Chatbot (LangChain + OpenAI)
 
-A simple **terminal-based AI chatbox** built with **LangChain (v1+)** and **OpenAI**.
+A simple **terminal-based AI chatbot** built with **LangChain (v1+)** and **OpenAI**.
 The chatbot behaves as a configurable **AI agent** using a system prompt and maintains conversation context during runtime.
 
 ---
@@ -32,8 +32,7 @@ The chatbot behaves as a configurable **AI agent** using a system prompt and mai
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ai-agent-chatbox.git
-cd ai-agent-chatbox
+git clone https://github.com/ahmed3alali/AI-Chatbot
 ```
 
 
@@ -73,7 +72,7 @@ pip install -r requirements.txt
 
 ```
 
-## ▶️ Run the Chatbox
+## ▶️ Run the chatbot
 
 
 
@@ -95,7 +94,7 @@ pip install langchain langchain-openai python-dotenv
 
 
 
-## ▶️ Run the Chatbox
+## ▶️ Run the chatbot
 
 
 
@@ -111,7 +110,7 @@ You should see:
 
 
 
-## Chatbox Behavior (System Prompt)
+## chatbot Behavior (System Prompt)
 
 The chatbot is initialized with a **system message** that defines its personality and rules.
 
@@ -139,16 +138,16 @@ You: What is LangChain?
 Bot: LangChain is a framework for building applications powered by large language models...
 ```
 
-> The chatbox intentionally adds **4 blank lines** between the user message and the AI response for readability.
+> The chatbot intentionally adds **4 blank lines** between the user message and the AI response for readability.
 
 
 
 #Project Structure
 
 ```text
-AI-ChatBox/
+AI-chatbot/
 │
-├── agent.py          # Main chatbox logic
+├── agent.py          # Main chatbot logic
 ├── .env              # API key (ignored by git)
 ├── README.md         # Project documentation
 

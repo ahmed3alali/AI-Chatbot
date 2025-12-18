@@ -33,7 +33,7 @@ while True:
     user_input=input("You: ")
 
     if user_input.lower()=="exit":
-        print("Bye bye.. Thank you for using the chatbox")
+        print("Bye bye.. Thank you for using the chatbot")
         break
 
     chat_history.append(HumanMessage(content=user_input))
